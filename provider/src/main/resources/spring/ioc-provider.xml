@@ -5,7 +5,7 @@
 
     <dubbo:application name="provider"/>
     <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
-    <dubbo:protocol name="dubbo" port="10086"/>
+    <dubbo:protocol name="dubbo" port="20886"/>
     <dubbo:annotation package="com.it.service.impl"/>
 
 </beans>

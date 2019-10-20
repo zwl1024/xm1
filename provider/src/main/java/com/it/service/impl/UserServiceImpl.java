@@ -6,6 +6,11 @@ import org.springframework.util.StringUtils;
 
 @Service(timeout = 10000)
 public class UserServiceImpl implements UserService {
+    public UserServiceImpl() {
+        System.out.println("111111======================");
+    }
+
+
     @Override
     public String find(String id) {
         if (StringUtils.isEmpty(id)) {
